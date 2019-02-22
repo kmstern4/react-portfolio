@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-// const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devServer: {
@@ -22,15 +21,15 @@ module.exports = {
                 query: {
                     presets: ['@babel/react', '@babel/env']
                 }
+             },
+             {
+                 test: /\.css$/,
+                 loader: 'style-loader!css-loader'
              }
         ]
     },
-    // plugins: [
-    //     new HtmlWebPackPlugin({
-    //         hash: true,
-    //         filename: 'index.html',
-    //         template: 'public/index.html'
-    //     })
-    // ]
+    resolve: {
+        extensions: ['.js', '.jsx', '.css']
+    }
 };
 

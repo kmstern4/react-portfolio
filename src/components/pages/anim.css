@@ -1,0 +1,32 @@
+.divAnim {
+    animation: fadeup 5s;
+    -webkit-animation: fadeup 5s;
+    -moz-animation: fadeup 5s;
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeup {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeup {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
