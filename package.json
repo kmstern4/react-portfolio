@@ -8,9 +8,12 @@
     "build": "node_modules/.bin/webpack --config webpack.config.js --mode production",
     "serve": "node_modules/.bin/http-server ./dist"
   },
+  "heroku-run-build-script": "true",
   "author": "Kelly Stern",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-responsive": "^6.1.1",
