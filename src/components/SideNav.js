@@ -6,21 +6,21 @@ import StyledNav from './styledComponents/StyledNav';
 const SideNav = () => {
     return <>
         <StyledNav>
-            <StyledNavTab>
-                <Link to='/' className={window.location.pathname === '/' ? 'active' : ''}>
-                    About
-                </Link>
-            </StyledNavTab>
-            <StyledNavTab>
-                <Link to='/projects' className={window.location.pathname === '/projects' ? 'active' : ''}>
+            <Link to='/' className={window.location.pathname === '/' ? 'active' : ''}>
+                <StyledNavTab>
+                        About
+                </StyledNavTab>
+            </Link>
+            <Link to='/projects' className={window.location.pathname === '/projects' ? 'active' : ''}>
+                <StyledNavTab>
                     Projects
-                </Link>
-            </StyledNavTab>
-            <StyledNavTab>
-                <Link to='/contact' className={window.location.pathname === '/contact' ? 'active' : ''}>
-                    Contact
-                </Link>
-            </StyledNavTab>
+                </StyledNavTab>
+            </Link>
+            <Link to='/contact' className={window.location.pathname === '/contact' ? 'active' : ''}>
+                <StyledNavTab>
+                        Contact
+                </StyledNavTab>
+            </Link>
         </StyledNav>
     </>
 }
