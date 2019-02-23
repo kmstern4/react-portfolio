@@ -1,4 +1,3 @@
-import React from 'React';
 import styled, { css } from 'styled-components';
 
 const StyledNavTab = styled.li`
