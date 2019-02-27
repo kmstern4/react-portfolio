@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const StyledHeader = styled.h1`
-    font-family: 'Pacifico', cursive;
+    font-family: 'Alegreya', serif;
     font-size: 12vw;
     color: #fc4a1a;
     text-align: center;

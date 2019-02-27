@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-image: linear-gradient(to bottom right, #77c9d4, #57bc90);
     background-repeat: no-repeat;
     height: 100vh;
