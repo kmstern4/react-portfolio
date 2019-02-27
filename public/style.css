@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, #77c9d4, #57bc90);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #343434;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}

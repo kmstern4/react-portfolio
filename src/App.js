@@ -17,7 +17,6 @@ class App extends Component {
         return (
             <Router>
                 <>
-                <GlobalStyle />
                 <Row>
                     <Column size='twelve'>
                         <Header />
