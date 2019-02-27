@@ -8,7 +8,6 @@ import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Row from './components/grid/Row';
 import Column from './components/grid/Column';
-import GlobalStyle from './components/styledComponents/GlobalStyle';
 import MobileNav from './components/MobileNav';
 
 class App extends Component {
