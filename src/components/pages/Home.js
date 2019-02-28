@@ -17,7 +17,7 @@ const Home = () => {
                     About Me
                 </StyledTitle>
                 <StyledAbout>
-                    I am a front-end focused full stack web developer. I pride myself in making my projects look and function as clean as possible. Currently, I am creating a YouTube tutorial series about Phaser.js, a library in which I am making a simple game. If you'd like to check out the game or any of my other projects, click the Projects link to the left.
+                    I am a front-end focused full stack web developer. I pride myself in making my projects look and function as clean as possible. Currently, I am creating a YouTube tutorial series about Phaser.js, a JavaScript library in which I am making a simple game. If you'd like to check out the game or any of my other projects, click the Projects link to the left.
                 </StyledAbout>
             </Column>
             <Column size='two'>
@@ -58,7 +58,7 @@ const Home = () => {
                     About This Portfolio
                 </StyledTitle>
                 <StyledAbout>
-                    This porfolio is a custom React application built using Webpack and Babel. Most of the components are Styled Components. It is hosted on Amazon Web Service's S3 service through Route 53.
+                    This portfolio is a work in progress. It is a custom React application built using Webpack and Babel. Most of the components are Styled Components. It is hosted on Amazon Web Service's S3 service through Route 53.
                 </StyledAbout>
             </Column>
         </Row>
