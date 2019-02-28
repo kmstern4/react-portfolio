@@ -10,7 +10,7 @@ export const ProjImg = styled.img`
 
 export const ProjTitle = styled.h3`
     width: 90%;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Alegreya', serif;
     color: #ffffff;
     font-size: 3vw;
     position: absolute;

@@ -58,7 +58,7 @@ const Home = () => {
                     About This Portfolio
                 </StyledTitle>
                 <StyledAbout>
-                    This porfolio is a custom React application built using Webpack and Babel. Almost every component was created through Styled Components. It is hosted on Amazon Web Service's S3 service through Route 53.
+                    This porfolio is a custom React application built using Webpack and Babel. Most of the components are Styled Components. It is hosted on Amazon Web Service's S3 service through Route 53.
                 </StyledAbout>
             </Column>
         </Row>

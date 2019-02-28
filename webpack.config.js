@@ -39,7 +39,7 @@ module.exports = {
     //           secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
     //         },
     //         s3UploadOptions: {
-    //           Bucket: 'react-portfolio-kms'
+    //           Bucket: 'kellystern.me'
     //         }
     //     })
     // ]
