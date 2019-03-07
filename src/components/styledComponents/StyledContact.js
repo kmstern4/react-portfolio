@@ -1,9 +1,16 @@
 import styled, { css } from 'styled-components';
 
-export const ContactList = styled.ul`
-    list-style-type: none;
+export const EmailItem = styled.p`
+    font-size: 3vw;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
 `;
 
-export const ContactItem = styled.li`
-    font-size: 1.3vw;
+export const ContactItem = styled.p`
+    font-size: 3vw;
+    font-family: 'Alegreya', serif;
+
+    &:hover {
+        color: #fc4a1a;
+    }
 `;
