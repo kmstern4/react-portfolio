@@ -1,11 +1,11 @@
 import styled, { css } from 'styled-components';
 
 const StyledImage = styled.img`
-    width: 20vw;
+    width: 20vh;
     float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 5vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
 
     @media (min-width: 550px) {
         float: none;

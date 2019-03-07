@@ -5,10 +5,10 @@ const StyledMenuItem = styled.div`
     color: #ffffff;
     text-align: center;
     margin: 0px;
-    font-size: 6vw;
+    font-size: 5vh;
     width: 100vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 `;
 
 export default StyledMenuItem;

@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const StyledSubheader = styled.p`
     color: #ffffff;
     text-align: center;
-    font-size: 4vw;
+    font-size: 5vh;
 
     @media (min-width: 550px) {
         font-size: 2vw;
