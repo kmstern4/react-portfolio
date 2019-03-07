@@ -8,7 +8,7 @@ const SideNav = () => {
         <StyledNav>
             <Link to='/' className={window.location.pathname === '/' ? 'active' : ''}>
                 <StyledNavTab>
-                        About
+                        Home
                 </StyledNavTab>
             </Link>
             <Link to='/projects' className={window.location.pathname === '/projects' ? 'active' : ''}>

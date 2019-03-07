@@ -28,7 +28,6 @@ class App extends Component {
                         </Column>
                         <Column size='nine'>
                             <Route exact path='/' component={Home} />
-                            <Route exact path='/about' component={Home} />
                             <Route exact path='/contact' component={Contact} />
                             <Route exact path='/projects' component={Projects} />
                         </Column>
@@ -43,7 +42,6 @@ class App extends Component {
                     <Row>
                         <Column size='twelve'>
                             <Route exact path='/' component={Home} />
-                            <Route exact path='/about' component={Home} />
                             <Route exact path='/contact' component={Contact} />
                             <Route exact path='/projects' component={Projects} />
                         </Column>
