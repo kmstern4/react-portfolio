@@ -8,6 +8,7 @@ const StyledAbout = styled.p`
     @media (min-width: 550px) {
         font-size: 1.3vw;
         margin-right: 0px;
+        margin-left: 0px;
     }
 `;
 

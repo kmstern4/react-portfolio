@@ -9,6 +9,7 @@ const StyledTitle = styled.h2`
 
     @media (min-width: 550px) {
         font-size: 2vw;
+        margin-left: 0px;
     }
 `;
 

@@ -11,7 +11,7 @@ const StyledImage = styled.img`
         width: 11vw;
         margin-bottom: 2vw;   
         margin-left: 0vw;
-        margin-right: 5vw;
+        margin-right: 0vw;
     }
 `;
 
