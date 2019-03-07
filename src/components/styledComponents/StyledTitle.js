@@ -6,10 +6,12 @@ const StyledTitle = styled.h2`
     color: #fc4a1a;
     margin-bottom: 0.5vw;
     margin-left: 5vw;
+    margin-top: 5vw;
 
     @media (min-width: 550px) {
         font-size: 2vw;
         margin-left: 0px;
+        margin-top: 0vw;
     }
 `;
 
