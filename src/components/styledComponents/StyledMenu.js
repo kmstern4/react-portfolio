@@ -6,7 +6,7 @@ const StyledMenu = styled.div`
     text-align: center;
     width: 100vw;
     font-size: 6vw;
-    margin-bottom: 0px;
+    margin-bottom: 5vw;
     padding-top: 3vw;
     padding-bottom: 3vw;
 `;

@@ -5,7 +5,13 @@ export const TechList = styled.ul`
 `;
 
 export const TechItem = styled.li`
-    font-size: 1.3vw;
-    text-align: right;
+    font-size: 4vw;
     margin-bottom: 0px;
+    margin-left: 5vw;
+
+    @media (min-width: 550px) {
+        font-size: 1.3vw;
+        text-align: right;
+        margin-left: 0px;
+    }
 `;

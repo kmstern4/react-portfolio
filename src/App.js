@@ -4,6 +4,7 @@ import MediaQuery from 'react-responsive';
 import Header from './components/Header';
 import SideNav from './components/SideNav';
 import Home from './components/pages/Home';
+import MobileHome from './components/pages/MobileHome';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Row from './components/grid/Row';
@@ -41,7 +42,7 @@ class App extends Component {
                     </Row>
                     <Row>
                         <Column size='twelve'>
-                            <Route exact path='/' component={Home} />
+                            <Route exact path='/' component={MobileHome} />
                             <Route exact path='/contact' component={Contact} />
                             <Route exact path='/projects' component={Projects} />
                         </Column>

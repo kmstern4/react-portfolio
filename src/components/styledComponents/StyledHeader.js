@@ -9,6 +9,7 @@ const StyledHeader = styled.h1`
 
     @media (min-width: 550px) {
         font-size: 6vw;
+        margin-bottom: 0px;
     }
 `;
 

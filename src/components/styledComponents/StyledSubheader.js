@@ -3,7 +3,13 @@ import styled, { css } from 'styled-components';
 const StyledSubheader = styled.p`
     color: #ffffff;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4vw;
+
+    @media (min-width: 550px) {
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+
 `;
 
 export default StyledSubheader;
