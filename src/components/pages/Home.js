@@ -17,7 +17,7 @@ const Home = () => {
                     About Me
                 </StyledTitle>
                 <StyledAbout>
-                    I am a front-end focused full stack web developer. I pride myself in making my projects look and function as clean as possible. Currently, I am creating a YouTube tutorial series about Phaser.js, a JavaScript library in which I am making a simple game. If you'd like to check out the game or any of my other projects, click the Projects link to the left.
+                    I am a Full Stack Web Developer who is passionate about coding. I pride myself in making my projects look and function as clean as possible. Currently, I am creating a YouTube tutorial series about Phaser.js, a JavaScript library in which I am making a simple game. If you'd like to check out the game or any of my other projects, click the Projects link to the left.
                 </StyledAbout>
             </Column>
             <Column size='two'>
