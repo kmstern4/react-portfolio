@@ -9,6 +9,7 @@ const StyledAbout = styled.p`
         font-size: 1.3vw;
         margin-right: 0px;
         margin-left: 0px;
+        margin-bottom: 2vw;
     }
 `;
 

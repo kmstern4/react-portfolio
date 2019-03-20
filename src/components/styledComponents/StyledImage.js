@@ -9,11 +9,11 @@ const StyledImage = styled.img`
     box-shadow: 2px 2px 5px rgba(79, 79, 79, 0.84);
 
     @media (min-width: 550px) {
-        float: none;
+        float: left;
         width: 11vw;
-        margin-bottom: 2vw;   
+        margin-bottom: 0vw;   
         margin-left: 0vw;
-        margin-right: 0vw;
+        margin-right: 2vw;
         margin-top: 0vw;
     }
 `;
