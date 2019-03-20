@@ -11,6 +11,7 @@ const StyledNavTab = styled.li`
     margin-left: 0;
     border-radius: 2px;
     font-size: 3rem;
+    box-shadow: 2px 2px 5px rgba(79, 79, 79, 0.84);
 
     &:hover {
         background: #fc7753;

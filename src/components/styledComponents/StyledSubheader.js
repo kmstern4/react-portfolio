@@ -4,6 +4,7 @@ const StyledSubheader = styled.p`
     color: #ffffff;
     text-align: center;
     font-size: 5vh;
+    text-shadow: 2px 2px 5px rgba(79, 79, 79, 0.84);
 
     @media (min-width: 550px) {
         font-size: 2vw;
