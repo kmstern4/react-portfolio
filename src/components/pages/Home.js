@@ -55,6 +55,9 @@ const Home = () => {
                         PhaserJS
                     </TechItem>
                     <TechItem>
+                        Bootstrap
+                    </TechItem>
+                    <TechItem>
                         MongoDB
                     </TechItem>
                     <TechItem>
