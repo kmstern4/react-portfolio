@@ -17,7 +17,7 @@ const Projects = () => {
                     <ProjDesc>
                         (Work in Progress) Short adventure game where you progress through a story to stop a zombie invasion, fighting the undead along the way. <br></br><br></br>
                         Phaser.js, Babel, Webpack, Gulp.js <br></br><br></br>
-                        <a href='https://github.com/kmstern4/medieval-zombies' target='_blank'><Logo src ='assets/git.png' alt='GitHub' />GitHub</a><StyledSpace src='assets/spacer.png' /><a href='https://protected-sierra-25451.herokuapp.com' target='_blank'>Live App</a>
+                        <a href='https://github.com/kmstern4/medieval-zombies' target='_blank'><Logo src ='assets/git.png' alt='GitHub' />GitHub</a><StyledSpace src='assets/spacer.png' /><a href='http://medieval-zombies.s3-website.us-east-2.amazonaws.com/' target='_blank'>Live App</a>
                     </ProjDesc>
                 </ProjDiv>
                 <ProjImg src='assets/mz.png' alt='Medieval Zombies' />

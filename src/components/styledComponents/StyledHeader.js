@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 const StyledHeader = styled.h1`
     font-family: 'Alegreya', serif;
-    font-size: 15vh;
+    font-size: 10vh;
     color: #fc4a1a;
     text-align: center;
     padding-top: 4vh;

@@ -31,17 +31,17 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.jsx', '.css']
-    }
-    // plugins: [
-    //     new S3Plugin({
-    //         s3Options: {
-    //           accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    //           secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
-    //         },
-    //         s3UploadOptions: {
-    //           Bucket: 'kellystern.me'
-    //         }
-    //     })
-    // ]
+    },
+    plugins: [
+        new S3Plugin({
+            s3Options: {
+              accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+              secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+            },
+            s3UploadOptions: {
+              Bucket: 'kellystern.me'
+            }
+        })
+    ]
 };
 
